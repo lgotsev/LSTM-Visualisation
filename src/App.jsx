@@ -31,7 +31,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 text-gray-900">
       <nav className="sticky top-0 z-30 bg-indigo-900 text-white shadow h-[52px]">
-        <div className="max-w-[1280px] mx-auto px-6 h-full flex items-center gap-1">
+        <div className="max-w-[1280px] mx-auto px-6 h-full flex items-center gap-1 overflow-x-auto">
           <span className="font-bold mr-4 whitespace-nowrap">LSTM визуализация</span>
           {TABS.map((t) => (
             <button
