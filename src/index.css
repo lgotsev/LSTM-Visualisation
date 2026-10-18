@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+}
+
+/* Числова клетка: еднакво широки цифри, не се свива и не се пренася. */
+.num {
+  font-family: theme('fontFamily.mono');
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Видим скрол само за тежките таблици. */
+.hscroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+input[type='range'] {
+  accent-color: #4f46e5;
+}

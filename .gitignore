@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dev-dist/
+tests/screens/
+training/data/
+training/prepared.json
+training/weights.json
+training/reference.json
+__pycache__/
