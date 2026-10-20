@@ -38,7 +38,7 @@ npm run check:layout # Playwright при 1280×720: няма застъпени 
 
 ## Самопроверка
 
-Линкът към Google Forms се попълва в `src/model/sentences.js` (`FORMS_URL`).
+Задача 9 води към теста в Google Forms (линкът е в `src/model/sentences.js`, `FORMS_URL`). Тестът е създаден със скрипта `docs/selfcheck-form.gs` (Google Apps Script): 10 въпроса с автоматична проверка и обяснения.
 
 ## Обучение
 

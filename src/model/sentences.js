@@ -27,4 +27,4 @@ export const INFLUENCE = {
 };
 
 // Линк към самопроверката в Google Forms — попълва се от преподавателя.
-export const FORMS_URL = '';
+export const FORMS_URL = 'https://forms.gle/jXtwxRPjTW3X3k4k6';
